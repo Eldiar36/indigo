@@ -1,0 +1,81 @@
+@media (max-width: 1200px) {
+    #reviews .btn-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #reviews .pages {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 991px) {
+    #reviews .reviews-wrap .reviews-box .item .text {
+        padding: 15px 8px 10px 15px;
+    }
+    #reviews .reviews-wrap .reviews-box .item .text p {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    #reviews .reviews-wrap .reviews-box .item .text .review {
+        margin-top: 10px;
+    }
+    #reviews .btn-group .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #reviews .btn-group .buttons button {
+        width: 200px;
+        padding: 4px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 767px) {
+    #reviews .reviews-wrap .reviews-box .item .item-body {
+        flex-direction: column;
+        align-items: center;
+    }
+    #reviews .reviews-wrap .reviews-box .item-body .img {
+        height: 121px;
+        margin: 20px 0 0 0;
+    }
+    #reviews .reviews-wrap .reviews-box .item-body  {
+        text-align: center;
+    }
+    #reviews .reviews-wrap .reviews-box .item .text .review {
+        justify-content: center;
+    }
+}
+@media (max-width: 480px) {
+    #reviews .reviews-wrap .reviews-box .item-body .img {
+        height: 100px;
+        margin: 5px 0 0 0;
+    }
+    #reviews .reviews-wrap .reviews-box .item .text {
+        padding: 20px 15px 20px 15px;
+    }
+    #reviews .reviews-wrap .reviews-box .item .text .review {
+        margin-top: 20px;
+    }
+    #reviews .btn-group .buttons {
+        width: 100%;
+    }
+    #reviews .btn-group .buttons button {
+        width: 100%;
+    }
+    #reviews .btn-group .buttons button:last-child {
+        width: 100%;
+    }
+    #reviews .reviews-wrap .reviews-box {
+        padding: 15px 11px;
+    }
+    #reviews .pages {
+        margin-bottom: 25px;
+    }
+    #reviews .btn-group {
+        margin: 18px 0;
+        padding: 0;
+    }
+}
